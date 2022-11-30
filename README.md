@@ -1,4 +1,4 @@
-# Tutorial Testnet Mina Protocol 
+# Tutorial Testnet DUSK Network 
 
 - [Discord](https://discord.gg/dusknetwork) 
 - [docs official ](https://dusk.network/pages/incentivized-testnet#Wallet) 
