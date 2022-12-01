@@ -121,6 +121,11 @@ service dusk stop
 ### - Stake Token
 
 ```
+```
+
+```
+
+```
 cd
 cd rusk-wallet0.12.0-linux-x64
 ./rusk-wallet
@@ -131,10 +136,24 @@ cd rusk-wallet0.12.0-linux-x64
 - Lalu `Enter` 
 - Arah Bawah Pilih `Stake Dusk` 
 - Introduce the amount of DUSK to stake: isi `25000` atau set `defaul` langsung `Enter`
-- Introduce the gas limit for this transaction: isi `2000000000`  dan `Enter`
+- Introduce the gas limit for this transaction: isi `2900000000`  dan `Enter`
 - Introduce the gas price for this transaction: set `defaul` langsung `Enter`
 - Ketik `y` dan `Enter`
 - Done
+
+### jika eror gunakan command ini
+
+```
+wget https://github.com/dusk-network/wallet-cli/releases/download/v0.13.0/ruskwallet0.13.0-linux-x64-libssl3.tar.gz
+tar -xf ruskwallet0.13.0-linux-x64-libssl3.tar.gz
+cd rusk-wallet0.13.0-linux-x64-libssl3
+```
+
+```
+./rusk-wallet --state http://127.0.0.1:8585
+```
+
+silahkan stake sesuai balance!
 
 ## - Check status stake
 
