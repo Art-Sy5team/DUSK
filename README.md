@@ -38,6 +38,7 @@ gunakan command ini untuk mengaktifkan port
 
 ```
 sudo ufw allow 22
+sudo ufw allow 8585
 sudo ufw allow 9000:9005/udp
 sudo ufw enable
 ```
@@ -119,8 +120,6 @@ service rusk stop
 service dusk stop
 ```
 ### - Stake Token
-
-
 ```
 cd
 cd rusk-wallet0.12.0-linux-x64
@@ -144,7 +143,7 @@ wget https://github.com/dusk-network/wallet-cli/releases/download/v0.13.0/ruskwa
 tar -xf ruskwallet0.13.0-linux-x64-libssl3.tar.gz
 cd rusk-wallet0.13.0-linux-x64-libssl3
 ```
-
+noted port 8585 udah aktif
 ```
 ./rusk-wallet --state http://127.0.0.1:8585
 ```
