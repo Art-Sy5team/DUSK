@@ -120,10 +120,6 @@ service dusk stop
 ```
 ### - Stake Token
 
-```
-```
-
-```
 
 ```
 cd
